@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Open Sans', 'Hiragino Sans', 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2.75em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+p.small {
+  line-height: 1.8;
+  font-size: 0.875em;
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+dl {
+  display: block;
+  padding-bottom: 20px;
+}
+
+dt {
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+blockquote {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  line-height: 1.8;
+  font-size: 1em;
+  border-left: 5px solid #eee;
+}
+
+blockquote p {
+  position: relative;
+}
+
+blockquote footer {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+blockquote.blockquote-reverse {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eee;
+  border-left: 0;
+  text-align: right;
+}
+
+blockquote.quote {
+  position: relative;
+  border: none !important;
+}
+
+blockquote.quote:before {
+  font-family: 'font-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  content: "\e7ad";
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 42px;
+  top: 0;
+  left: 0;
+  color: #EEE;
+}
+
+blockquote.blockquote-reverse.quote:before {
+  content: "\e7ae";
+  left: auto;
+  right: 0;
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+  body { font-size: 85%; }
+}
+
+@media screen and (max-width: 767px) {
+  body { font-size: 80%; }
+}
+
+.keyvisual-text h1 {
+  color: #fff;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 3.125em;
+  font-weight: 200;
+  text-transform: uppercase;
+  line-height: 1.44;
+  letter-spacing: .2em;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.keyvisual-text p {
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.name-desc h2 {
+  font-family: 'LearningCurve', sans-serif;
+  font-size: 40px;
+  line-height: 1.45;
+  font-weight: 300;
+}
+
+#portfoliowrap h1 {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#portfoliowrap i {
+  font-size: 50px;
+}
+
+.service small {
+  font-size: 12px;
+  font-weight: bold
+}
+
+.service i {
+  float: left;
+  margin-right: 15px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+#contactwrap small {
+  font-size: 13px;
+}
