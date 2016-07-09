@@ -1,0 +1,13 @@
+.keyvisual {
+  position: relative;
+  background-image: url(../../img/keyvisual/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 750px;
+}
+
+.keyvisual-text {
+  padding-top: 22%;
+}

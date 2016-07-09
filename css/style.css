@@ -1,21 +1,25 @@
 @charset "UTF-8";
 
 @import "bootstrap.css";
-@import "normalize.css";
-@import "reset.css";
-@import "base.css";
+
+@import "base/normalize.css";
+@import "base/reset.css";
+@import "base/base.css";
+
 @import "common.css";
 @import "theme.css";
-@import "conversion.css";
-@import "feature.css";
-@import "footer.css";
-@import "header.css";
-@import "heading.css";
-@import "keyvisual.css";
+@import "utilities/utilities.css";
 
-/*@import url(base.css);
-@import url(bootstrap.css);
-@import url(common.css);
-@import url(responsive.css);
-@import url(style.css);
-@import url(theme.css);*/
+@import "components/keyvisual.css";
+@import "components/about.css";
+@import "components/recommend.css";
+@import "components/catchcopy.css";
+@import "components/feature.css";
+@import "components/conversion.css";
+@import "components/career.css";
+@import "components/guest.css";
+@import "components/sponsor.css";
+@import "components/details.css";
+@import "components/googlemap.css";
+@import "components/staff.css";
+@import "components/footer.css";

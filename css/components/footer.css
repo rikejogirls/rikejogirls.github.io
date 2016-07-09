@@ -1,0 +1,10 @@
+#footerwrap {
+  margin-top: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#footerwrap label {
+  color: #f2f2f2;
+  margin-top: 10px;
+}

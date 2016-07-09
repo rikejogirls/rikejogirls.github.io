@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
+@font-face {
+    font-family: 'LearningCurve';
+    src: url('../../fonts/LearningCurve_OT-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body, html {
   width: 100%;
   height: 100%;
@@ -9,17 +16,12 @@ body, html {
   -webkit-font-smoothing: antialiased;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-weight: 600;
-  margin-bottom: 1em;
-}
-
 h1 {
   font-size: 2.75em;
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2.8em;
 }
 
 h3 {
@@ -46,10 +48,10 @@ p {
 p.small {
   line-height: 1.8;
   font-size: 0.875em;
+}
 
-  strong {
+p.strong {
     font-weight: 600;
-  }
 }
 
 img {
@@ -149,20 +151,22 @@ blockquote.blockquote-reverse.quote:before {
   margin-bottom: 80px;
 }
 
-.name-desc h2 {
+.section-header h2 {
+  font-size: 3em;
   font-family: 'LearningCurve', sans-serif;
-  font-size: 40px;
-  line-height: 1.45;
-  font-weight: 300;
 }
 
-#portfoliowrap h1 {
+.about h2 {
+  font-size: 1em;
+}
+
+#careerwrap h1 {
   font-weight: 300;
   text-align: center;
   margin-bottom: 50px;
 }
 
-#portfoliowrap i {
+#careerwrap i {
   font-size: 50px;
 }
 
@@ -178,6 +182,6 @@ blockquote.blockquote-reverse.quote:before {
   vertical-align: middle;
 }
 
-#contactwrap small {
+#footerwrap small {
   font-size: 13px;
 }

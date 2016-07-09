@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
 		$('#message').hide();
 
  		$('#submit')
-			.before('<img src="images/ajax-loader.gif" class="contact-loader" />')
+			.before('<img src="images/ajax-loader.gif" class="footer-loader" />')
 			.attr('disabled','disabled');
 
 		$.post(action, {
@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
 			function(data){
 				document.getElementById('message').innerHTML = data;
 				$('#message').slideDown('slow');
-				$('#cform img.contact-loader').fadeOut('slow',function(){$(this).remove()});
+				$('#cform img.footer-loader').fadeOut('slow',function(){$(this).remove()});
 				$('#submit').removeAttr('disabled');
 				if(data.match('success') != null) $('#cform').slideUp('slow');
 			}
