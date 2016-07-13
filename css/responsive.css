@@ -18,13 +18,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .keyvisual-text {
-    padding-top: 30%; }
-    .keyvisual-text h1 {
-      font-size: 42px; }
-    .keyvisual-text p {
-      font-size: 18px; }
-
   .flexslider {
     padding-bottom: 80px; }
 
@@ -41,10 +34,6 @@
 	  .testimonials p {
     font-size: 12px;  }
 @media screen and (max-width: 480px) {
-  .keyvisual-text {
-    padding-top: 45%; }
-    .keyvisual-text h1 {
-      font-size: 32px; }
 	    .testimonials p {
     font-size: 12px;  }
 @media screen and (max-width: 320px) {

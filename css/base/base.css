@@ -132,25 +132,6 @@ blockquote.blockquote-reverse.quote:before {
   body { font-size: 80%; }
 }
 
-.keyvisual-text h1 {
-  color: #fff;
-  font-family: "Open Sans", Arial, sans-serif;
-  font-size: 3.125em;
-  font-weight: 200;
-  text-transform: uppercase;
-  line-height: 1.44;
-  letter-spacing: .2em;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}
-.keyvisual-text p {
-  color: rgba(255, 255, 255, 0.60);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 30px;
-  margin-bottom: 80px;
-}
-
 .section-header h2 {
   font-size: 3em;
   font-family: 'LearningCurve', sans-serif;
