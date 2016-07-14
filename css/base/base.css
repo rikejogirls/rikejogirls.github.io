@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
 @font-face {
-    font-family: 'LearningCurve';
-    src: url('../../fonts/LearningCurve_OT-webfont.ttf');
+    font-family: 'KGTwoisBetterThanOne';
+    src: url('../../fonts/KGTwoisBetterThanOne.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -45,12 +45,12 @@ p {
   font-size: 1em;
 }
 
-p.small {
-  line-height: 1.8;
-  font-size: 0.875em;
+.small {
+  line-height: 1.7;
+  font-size: 0.83em;
 }
 
-p.strong {
+.strong {
     font-weight: 600;
 }
 
@@ -134,33 +134,7 @@ blockquote.blockquote-reverse.quote:before {
 
 .section-header h2 {
   font-size: 3em;
-  font-family: 'LearningCurve', sans-serif;
-}
-
-.about h2 {
-  font-size: 1em;
-}
-
-#careerwrap h1 {
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-#careerwrap i {
-  font-size: 50px;
-}
-
-.service small {
-  font-size: 12px;
-  font-weight: bold
-}
-
-.service i {
-  float: left;
-  margin-right: 15px;
-  font-size: 30px;
-  vertical-align: middle;
+  font-family: 'KGTwoisBetterThanOne', sans-serif;
 }
 
 #footerwrap small {
