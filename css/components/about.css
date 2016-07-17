@@ -1,3 +1,7 @@
 .about {
   background-image: url(../../img/about/bg.png);
 }
+
+.about h3 {
+  line-height: 1.7;
+}

@@ -5,6 +5,9 @@
     src: url('../../fonts/KGTwoisBetterThanOne.ttf');
     font-weight: normal;
     font-style: normal;
+
+    font-family: 'SmartphoneUI';
+    src: url('../../fonts/SmartphoneUI.otf');
 }
 
 body, html {
@@ -137,6 +140,7 @@ blockquote.blockquote-reverse.quote:before {
   font-family: 'KGTwoisBetterThanOne', sans-serif;
 }
 
-#footerwrap small {
-  font-size: 13px;
+.about .section-header h3,
+.catchcopy h5 {
+  font-family: 'SmartphoneUI', sans-serif;
 }

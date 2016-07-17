@@ -1,13 +1,12 @@
 @charset "UTF-8";
 
 @import "bootstrap.css";
+@import "responsive.css";
 
 @import "base/normalize.css";
 @import "base/reset.css";
 @import "base/base.css";
 
-@import "common.css";
-@import "theme.css";
 @import "utilities/utilities.css";
 
 @import "components/keyvisual.css";

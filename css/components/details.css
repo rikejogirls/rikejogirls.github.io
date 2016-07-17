@@ -1,0 +1,8 @@
+.details table{
+ margin-right : auto;
+ margin-left : auto
+}
+
+.details table th {
+  text-align: right;
+}

@@ -1,0 +1,18 @@
+.guest {
+  background-image: url(../../img/guest/bg.png);
+  background-repeat: repeat;
+}
+
+.guest h4 {
+  padding-right: 5%;
+  padding-left: 5%;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+}
+
+.guest p {
+  padding-right: 5%;
+  padding-left: 5%;
+}

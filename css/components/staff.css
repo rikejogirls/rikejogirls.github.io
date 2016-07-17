@@ -1,5 +1,17 @@
+.staff h4 {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.staff p {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 .social-icons {
-  margin-top: 30px;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-top: 20px;
 }
 .social-icons li {
   display: inline-block;
@@ -17,9 +29,4 @@
   text-align: center;
   width: 25px;
   height: 25px;
-}
-.social-icons a:hover {
-  /*background-color: #ffc4be;*/
-  /*border-color: #ffc4be;*/
-  /*color: #fff;*/
 }

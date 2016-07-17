@@ -1,28 +1,15 @@
 @media screen and (max-width: 1024px) {
   .keyvisual-text {
   padding-top: 35%; }
-
-  .person {
-    margin: 0 auto 50px; }
-    .person-content {
-      text-align: center; }
-    .person .social-icons li {
-      display: inline-block;
-      float: none;
-      margin-bottom: 5px; }
-
-  .testimonials blockquote {
-    padding: 20px 5% 0; }
-  .testimonials p {
-    font-size: 12px; }
-
-  .flex-control-nav {
-    bottom: 20px; }
-}
+  .about {
+    height: 1000px; }
 
 @media screen and (max-width: 768px) {
   .keyvisual-text {
-  padding-top: 35%; }
+  margin-top: 35%; }
+
+  .about {
+    height: 1000px; }
 
   .flexslider {
     padding-bottom: 80px; }
@@ -36,15 +23,19 @@
 
 @media screen and (max-width: 640px) {
   .keyvisual-text {
-    padding-top: 35%; }
+    margin-top: 50%; }
 	  .testimonials p {
     font-size: 12px;  }
+  .about {
+    height: 1000px; }
 @media screen and (max-width: 480px) {
 	    .testimonials p {
     font-size: 12px;  }
+  .about {
+    height: 1000px; }
 @media screen and (max-width: 320px) {
   .keyvisual-text {
-    padding-top: 55%; }
+    padding-top: 50%; }
 
   .testimonials blockquote {
     padding: 20px 5% 0; }

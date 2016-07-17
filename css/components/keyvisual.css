@@ -11,3 +11,15 @@
 .keyvisual-text {
   padding-top: 3%;
 }
+
+.social-share {
+  display: inline-block;
+}
+
+.social-share li {
+  float: left;
+}
+
+.social-share li:nth-child(2) {
+  margin-left: 5px;
+}
