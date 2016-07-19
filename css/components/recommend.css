@@ -1,0 +1,12 @@
+.recommend h4 {
+  text-align: center;
+  /*-webkit-margin-before: 1em;*/
+  -webkit-margin-after: .7em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+}
+
+.recommend p {
+  padding-right: 5%;
+  padding-left: 5%;
+}
