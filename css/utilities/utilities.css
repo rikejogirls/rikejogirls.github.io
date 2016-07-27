@@ -23,6 +23,31 @@
   background-color: #2f2f2f;
 }
 
+.bg-theme-check {
+  background-image: url(../../img/bg/bg-check.png);
+  background-repeat: repeat;
+}
+
+.bg-theme-dots {
+  background-image: url(../../img/bg/bg-dots.png);
+  background-repeat: repeat;
+}
+
+.bg-theme-stripe {
+  background-image: url(../../img/bg/bg-stripe.png);
+  background-repeat: repeat;
+}
+
+.bg-cloth-green {
+  background-image: url(../../img/bg/bg-cloth-green.png);
+  background-repeat: repeat;
+}
+
+.bg-cloth-pink {
+  background-image: url(../../img/bg/bg-cloth-pink.png);
+  background-repeat: repeat;
+}
+
 .recommend, .feature, .guest, .staff, .sponsor, .details {
   color: #52443d;
 }
@@ -334,7 +359,6 @@ hr {
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;

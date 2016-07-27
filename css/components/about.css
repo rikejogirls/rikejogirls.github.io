@@ -1,7 +1,22 @@
 .about {
   background-image: url(../../img/about/bg.png);
+  height: 450px;
 }
 
 .about h3 {
   line-height: 1.7;
+}
+
+@media screen and (max-width: 640px) {
+  .about {
+    background-image: url(../../img/about/bg-sm-6.png);
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
 }

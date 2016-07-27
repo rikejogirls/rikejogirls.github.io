@@ -1,3 +1,18 @@
 .conversion {
   background-image: url(../../img/conversion/bg.png);
+  height: 450px;
+}
+
+@media screen and (max-width: 640px) {
+  .about {
+    background-image: url(../../img/conversion/bg-sm-6.png);
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
 }
