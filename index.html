@@ -8,49 +8,74 @@
     <meta name="author" content="">
     <title>理系女子限定キャリアラボ | いつかじゃなくて#今日から変わる</title>
     <link href="css/style.css" rel="stylesheet">
-    <link href="js/fancybox/jquery.fancybox.css" rel="stylesheet">
     <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
 		<meta property="og:type"          content="website" />
 		<meta property="og:title"         content="理系女子限定キャリアラボ | いつかじゃなくて#今日から変わる" />
 		<meta property="og:description"   content="【10/09】理系女子のための1DAYキャリアイベント｜120%の自分になるためのスキルを1番効率のよい方法で身につきます。先着100名までお申し込み受付中！" />
 		<meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
   </head>
-
   <body>
+  <header id="header" class="header header-right header-color sticky-header translucent-header">
+    <div class="container">
+      <div class="row header-inner">
+        <div id="logo" class="col-xs-6 col-sm-12 col-md-3 image-center-sm text-left-xs clearfix">
+        </div>
+        <div id="menu" class="col-xs-6 col-sm-12 col-md-9">
+          <nav class="navbar main-menu margin-0" role="navigation">
+            <div class="navbar-header">
+              <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" type="button">MENU</button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-right navbar-nav">
+                <li><a class="js-link" data-target="#about">イベントについて</a></li>
+                <li><a class="js-link" data-target="#feature">特徴</a></li>
+                <li><a class="js-link" data-target="#guest">ゲスト</a></li>
+                <li><a class="js-link" data-target="#staff">運営スタッフ</a></li>
+                <li><a class="js-link" data-target="#sponsor">協賛</a></li>
+                <li><a class="js-link" data-target="#details">イベント詳細</a></li>
+                <li class="hide-xs"><a class="action-btn" href="contact.html" target="_blank"><button class="button btn">エントリー</button></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
 	<section id="keyvisual" class="keyvisual section">
-	    <div class="col-md-10 col-md-offset-1 text-center">
-	      <div class="keyvisual-text">
-	        <img class="img padding-center" src="img/keyvisual/keyvisual.png" srcset="img/keyvisual/keyvisual.png 1x, img/keyvisual/keyvisual@2x.png 2x" alt="">
-	      </div>
-	      <a href="#" class="btn btn-large margin-top-20">お申し込みはこちら</a>
-	      <div class="margin-top-40">
-	      	<div id="fb-root" class=" fb_reset">
-	      		<div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
-		      			<div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://staticxx.facebook.com/connect/xd_arbiter/r/bz-D0tzmBsw.js?version=42#channel=f32f3c2f106c6b4&amp;origin=http%3A%2F%2Flady-holiday.tech-camp.in" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/bz-D0tzmBsw.js?version=42#channel=f32f3c2f106c6b4&amp;origin=http%3A%2F%2Flady-holiday.tech-camp.in" style="border: none;"></iframe></div>
-		      			</div>
-		      			<div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div>
-	      			</div>
-	      		</div>
-	      	</div>
-	      	<div id="fb-root"></div>
-		      <script>
-					  (function(d, s, id) {
-					    var js, fjs = d.getElementsByTagName(s)[0];
-					    if (d.getElementById(id)) return;
-					    js = d.createElement(s); js.id = id;
-					    js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
-					    fjs.parentNode.insertBefore(js, fjs);
-					  }(document, 'script', 'facebook-jssdk'));
-					  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-					</script>
-					<ul class="social-share row margin-0">
-						<li>
-							<div class="fb-like" data-href="https://rikejogirls.github.io/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Frikejogirls.github.io%2F&width=130&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
-						<li>
-							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://rikejogirls.github.io/" data-via="pompom0c0" data-lang="ja" data-hashtags="rikeigirlsjapan">Tweet</a>
-						</li>
-					</ul>
-				</div>
+    <div class="col-md-10 col-md-offset-1 text-center">
+      <div class="keyvisual-text">
+        <img class="img padding-center" src="img/keyvisual/keyvisual.png" srcset="img/keyvisual/keyvisual.png 1x, img/keyvisual/keyvisual@2x.png 2x" alt="">
+      </div>
+      <a href="#" class="btn btn-large margin-top-20">お申し込みはこちら</a>
+      <div class="margin-top-40">
+      	<div id="fb-root" class=" fb_reset">
+      		<div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+      			<div>
+      				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Frikejogirls.github.io%2F&width=130&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+      			</div>
+      		</div>
+      	</div>
+      	<div id="fb-root"></div>
+				<script>
+					(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+
+					!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+				</script>
+				<ul class="social-share row margin-0">
+					<li>
+						<div class="fb-like" data-href="https://rikejogirls.github.io/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Frikejogirls.github.io%2F&width=130&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
+					<li>
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://rikejogirls.github.io/" data-via="pompom0c0" data-lang="ja" data-hashtags="rikeigirlsjapan">Tweet</a>
+					</li>
+				</ul>
+			</div>
 	  </div>
 	</section>
 
@@ -156,149 +181,6 @@
 		</div>
 	</section>
 
-	<!-- <section id="career" class="career">
-	  <div class="container-fluid">
-	    <div class="row">
-	      <div class="section-header text-center">
-	      	<h2>Carrer</h2>
-					<h6>こんなにある！キャリア選択肢</h6>
-				</div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	      <div class="col-sm-2 col-xs-6 career-item">
-	      	<a href="" class="career-link">
-		        <div class="career">
-		          <div class="career-content">
-		            <h3>研究職</h3>
-		            <h4>ああああああ</h4>
-		          </div>
-		        </div>
-		        <img src="img/guest-staff900.png" class="img-responsive" alt="">
-	        </a>
-	      </div>
-	    </div>
-	  </div>
-	</section> -->
-
 	<section id="guest" class="guest section bg-theme-check">
 		<div class="container">
 			<div class="row">
@@ -312,7 +194,8 @@
 					</div>
 				</div>
 				<div class="col col-lg-8">
-					<h4>池上さん(仮)</h4>
+					<h4>大島まり</h4>
+					<h6 class="small">東京大学大学院情報学環及び生産技術研究所 教授</h6>
         	<p class="small">ジャーナリストである。東京工業大学特命教授、信州大学・愛知学院大学特任教授、京都造形芸術大学客員教授、名城大学教授、特定非営利活動法人「日本ニュース時事能力検定協会」理事、毎日新聞「開かれた新聞」委員会委員。かつてはNHKで、社会部記者やニュースキャスターを歴任。記者主幹だった2005年で退職したことを機に、フリーランスのジャーナリストとして各種メディアで活動している。</p>
 				</div>
 			</div>
@@ -323,7 +206,8 @@
 					</div>
 				</div>
 				<div class="col col-lg-8">
-					<h4>池上さん(仮)</h4>
+					<h4>久保さん</h4>
+					<h6 class="small">東京大学大学院情報学環及び生産技術研究所 教授</h6>
         	<p class="small">ジャーナリストである。東京工業大学特命教授、信州大学・愛知学院大学特任教授、京都造形芸術大学客員教授、名城大学教授、特定非営利活動法人「日本ニュース時事能力検定協会」理事、毎日新聞「開かれた新聞」委員会委員。かつてはNHKで、社会部記者やニュースキャスターを歴任。記者主幹だった2005年で退職したことを機に、フリーランスのジャーナリストとして各種メディアで活動している。</p>
 				</div>
 			</div>
@@ -334,7 +218,8 @@
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<h4>池上さん(仮)</h4>
+					<h4>平野さん</h4>
+					<h6 class="small">東京大学大学院情報学環及び生産技術研究所 教授</h6>
         	<p class="small">ジャーナリストである。東京工業大学特命教授、信州大学・愛知学院大学特任教授、京都造形芸術大学客員教授、名城大学教授、特定非営利活動法人「日本ニュース時事能力検定協会」理事、毎日新聞「開かれた新聞」委員会委員。かつてはNHKで、社会部記者やニュースキャスターを歴任。記者主幹だった2005年で退職したことを機に、フリーランスのジャーナリストとして各種メディアで活動している。</p>
 				</div>
 			</div>
@@ -398,7 +283,7 @@
 			<div class="row text-center">
 				<div class="section-header">
 					<img class="img padding-bottom-20" src="img/title/title-sponsor.png" srcset="img/title/title-sponsor.png 1x, img/title/title-sponsor@2x.png 2x" alt="">
-					<h6>○○様を始めとする、理系女子大生を応援する企業様から協賛をいただいております。</h6>
+					<h6>日経新聞社様を始めとする、理系女子大生を応援する企業様から協賛をいただいております。</h6>
 				</div>
 				<div class="col col-lg-3 col-xs-6 proc">
 					<div class="photo-wrapper">
@@ -429,94 +314,100 @@
 			<div class="row">
 				<div class="section-header text-center">
 					<img class="img padding-bottom-20" src="img/title/title-details.png" srcset="img/title/title-details.png 1x, img/title/title-details@2x.png 2x" alt="">
-					<h6>イベント詳細</h6>
+					<h6>イベントの詳細と、当日のタイムスケジュールを紹介します。</h6>
 				</div>
-				<table class="small col-xs-12 col-md-6 margin-top-sm-60">
-					<tbody>
-						<tr>
-							<th class="col-xs-4 vertical-align-middle"><p>主催</p></th>
-							<td class="col-xs-8"><h6 class="title line-height-middle">日経新聞社様</h6></td>
-						</tr>
-						<tr>
-							<th class="col-xs-4 vertical-align-middle"><p>日時</p></th>
-							<td class="col-xs-8"><h6 class="title line-height-middle">2016年10月09日 12:00~19:00</h6></td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>会場</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">上智大学</h6>
-								<h6 class="title line-height-middle">住所：</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-4 vertical-align-middle"><p>対象</p></th>
-							<td class="col-xs-8">
-								<h6 class="title line-height-middle">高校1-3年生、大学1-4年生、修士1-2年生の理系女子学生</h6>
-								<h6 class="title line-height-middle">希望により理工系学部出身の社会人女性も歓迎です。</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>お問い合わせ</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">イベントへのご質問は<br>以下のメールアドレスにお送りください。</h6>
-								<h6 class="title line-height-middle">rikejojapan@gmail.com</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>募集締め切り</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">1次締め切り：:2016年09月10日(土)</h6>
-								<h6 class="title line-height-middle">2次締め切り：:2016年10月09日(土)</h6>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<table class="small col-xs-12 col-md-6 margin-top-sm-60">
-					<tbody>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>12:00 - 13:00</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">挨拶</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>13:00 - 14:00</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">挨拶</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>14:00 - 15:00</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">特別講演</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>15:00 - 16:00</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">特別講演</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>16:00 - 17:00</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">パネルディスカッション</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>17:00 - 18:00</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">グループワーク</h6>
-							</td>
-						</tr>
-						<tr>
-							<th class="col-xs-3 vertical-align-middle"><p>18:00 - 19:00</p></th>
-							<td class="col-xs-9">
-								<h6 class="title line-height-middle">懇親会</h6>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+				<div class="small col-xs-12 col-md-6 margin-top-sm-60">
+					<h5>イベント詳細</h5>
+					<table>
+						<tbody>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>主催</p></th>
+								<td class="col-xs-8"><h6 class="title line-height-middle">日経新聞社様</h6></td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>日時</p></th>
+								<td class="col-xs-8"><h6 class="title line-height-middle">2016年10月09日 12:00~19:00</h6></td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>会場</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">上智大学</h6>
+									<h6 class="title line-height-middle">住所：</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>対象</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">高校1-3年生、大学1-4年生、修士1-2年生の理系女子学生</h6>
+									<h6 class="title line-height-middle">希望により理工系学部出身の社会人女性も歓迎です。</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>お問い合わせ</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">イベントへのご質問は<br>以下のメールアドレスにお送りください。</h6>
+									<h6 class="title line-height-middle">rikejojapan@gmail.com</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>募集締め切り</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">1次締め切り：2016年09月10日(土)</h6>
+									<h6 class="title line-height-middle">2次締め切り：2016年10月09日(土)</h6>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="small col-xs-12 col-md-6 margin-top-sm-60">
+					<h5>タイムスケジュール</h5>
+					<table>
+						<tbody>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>12:00 - 13:00</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">挨拶</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>13:00 - 14:00</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">挨拶</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>14:00 - 15:00</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">特別講演</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>15:00 - 16:00</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">特別講演</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>16:00 - 17:00</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">パネルディスカッション</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>17:00 - 18:00</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">グループワーク</h6>
+								</td>
+							</tr>
+							<tr>
+								<th class="col-xs-4 vertical-align-middle"><p>18:00 - 19:00</p></th>
+								<td class="col-xs-8">
+									<h6 class="title line-height-middle">懇親会</h6>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -551,7 +442,7 @@
 	<script src="js/classie.js"></script>
   <script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/fancybox/jquery.fancybox.js"></script>
+	<script src="js/scroll.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>

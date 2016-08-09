@@ -9,6 +9,7 @@
 
 @import "utilities/utilities.css";
 
+@import "components/header.css";
 @import "components/keyvisual.css";
 @import "components/about.css";
 @import "components/recommend.css";
