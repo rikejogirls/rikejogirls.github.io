@@ -316,8 +316,6 @@
   border: 0;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #fff;
-  color: #58c8c5;
   padding: 15px 40px;
 }
 
@@ -330,6 +328,16 @@
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 27.5px;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #58c8c5;
+}
+
+.btn-blue {
+  background-color: #58c8c5;
+  color: #fff;
 }
 
 hr {
