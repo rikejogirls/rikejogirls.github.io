@@ -1,6 +1,6 @@
 .section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .bg-color-white {
@@ -24,12 +24,12 @@
 }
 
 .bg-theme-check {
-  background-image: url(../../img/bg/bg-check.png);
+  background-image: url(../../img/bg/bg-check-blue.png);
   background-repeat: repeat;
 }
 
 .bg-theme-dots {
-  background-image: url(../../img/bg/bg-dots.png);
+  background-image: url(../../img/bg/bg-dots-blue.png);
   background-repeat: repeat;
 }
 
@@ -313,37 +313,32 @@
 
 .btn {
   font-size: 13px;
-  font-weight: 600;
   border: 0;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #ffc4be;
-  color: #fff;
+  background-color: #fff;
+  color: #58c8c5;
+  padding: 15px 40px;
 }
 
 .btn:hover, .btn:focus {
   box-shadow: 1px 1px 3px rgba(0,0,0,.1);
-  color: #fff;
+  color: #58c8c5;
 }
 
 .btn-large {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 27.5px;
-  padding: 15px 40px;
 }
-
-/*.btn-small {
-  padding: 10px 10px;
-}*/
 
 hr {
   border-width: 1px 0px 0px 0px;
   border-style: dashed;
-  border-color: #ffc4be;
+  border-color: #58c8c5;
   height: 1px;
-  -webkit-margin-before: 0.5em;
-  -webkit-margin-after: 0.5em;
+  -webkit-margin-before: 0.7em;
+  -webkit-margin-after: 0.7em;
   -webkit-margin-start: auto;
   -webkit-margin-end: auto;
 }

@@ -1,6 +1,6 @@
 .keyvisual {
   position: relative;
-  background-image: url(../../img/keyvisual/bg.jpg);
+  background-image: url(../../img/keyvisual/bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 .keyvisual-text {
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .social-share {
@@ -22,4 +22,11 @@
 
 .social-share li:nth-child(2) {
   margin-left: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .keyvisual img {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
 }

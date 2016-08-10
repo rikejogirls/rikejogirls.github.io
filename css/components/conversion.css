@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  .about {
+  .conversion {
     background-image: url(../../img/conversion/bg-sm-6.png);
   }
 }
