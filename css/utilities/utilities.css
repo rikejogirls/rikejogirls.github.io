@@ -319,11 +319,6 @@
   padding: 15px 40px;
 }
 
-.btn:hover, .btn:focus {
-  box-shadow: 1px 1px 3px rgba(0,0,0,.1);
-  color: #58c8c5;
-}
-
 .btn-large {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -337,6 +332,19 @@
 
 .btn-blue {
   background-color: #58c8c5;
+  color: #fff;
+}
+
+
+.btn:hover, .btn:focus {
+  box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+}
+
+.btn-white:hover {
+  color: #58c8c5;
+}
+
+.btn-blue:hover {
   color: #fff;
 }
 
