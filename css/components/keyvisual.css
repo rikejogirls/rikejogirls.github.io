@@ -5,11 +5,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+}
+
+.keyvisual-main {
   min-height: 750px;
 }
 
-.keyvisual-text {
+.keyvisual-sub {
+  min-height: 440px;
+}
+
+.keyvisual-text, .subkeyvisual-text {
   padding-top: 8%;
+}
+
+.subkeyvisual-text img {
+  padding-bottom: 1%;
 }
 
 .social-share {
@@ -28,5 +39,9 @@
   .keyvisual img {
     padding-right: 5%;
     padding-left: 5%;
+  }
+
+  .subkeyvisual-text {
+    padding-top: 30%;
   }
 }

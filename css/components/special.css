@@ -1,0 +1,22 @@
+.org h4 {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.org h5 {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.org p {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.org .img-org img {
+  height: 230px;
+}
+
+.org img {
+  width: 100%;
+}
